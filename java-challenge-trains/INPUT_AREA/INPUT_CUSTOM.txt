@@ -1,0 +1,1 @@
+insira aqui valores validos seguindo o modelo para o graph builder. (String com tamanho de 3 characteres, contendo letras em suas primeiras duas posições e numeral em sua ultima posição;
