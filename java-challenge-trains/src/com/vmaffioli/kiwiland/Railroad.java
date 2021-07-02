@@ -24,8 +24,9 @@ public class Railroad {
 
 	private static String[] builder(String param, boolean loadDefault) {
 		if(loadDefault) {
-			System.out.println("!ERROR! INPUT.txt invalid! Loading DEFAULT_SCHEMA");
+			System.out.println("Loading DEFAULT_SCHEMA");
 		} else {
+			System.out.println("Loading CUSTOM_SCHEMA");
 			if (!param.equals("")) {
 				String[] routes = param.replaceAll("\\W", " ").replaceAll("\\s+", " ").split(" ");
 				for (int i = 0; i < routes.length; i++) {
